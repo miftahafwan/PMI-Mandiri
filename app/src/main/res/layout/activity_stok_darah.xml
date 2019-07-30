@@ -1,0 +1,287 @@
+<ScrollView android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:scrollbars="none"
+    android:layout_weight="1"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <TableLayout
+        android:id="@+id/tabelgoldar"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#ffffff"
+        android:padding="16dp"
+        android:shrinkColumns="*"
+        android:stretchColumns="*">
+
+        <!-- first row -->
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/tableWhite"
+            android:gravity="center">
+
+
+            <TextView
+                android:id="@+id/txtinputgol"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_span="4"
+                android:gravity="center"
+                android:text="Input Data Golongan Darah"
+                android:textColor="@android:color/black"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/tableWhite"
+            android:gravity="left">
+
+
+            <TextView
+                android:id="@+id/txtdate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tanggal"
+                android:textColor="@android:color/black"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/editTextdate"
+                android:layout_width="15dp"
+                android:layout_height="wrap_content"
+                android:layout_span="2"
+                android:ems="10"
+                android:inputType="date"
+                android:textSize="14sp" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/tableTop"
+            android:gravity="center">
+
+
+            <TextView
+                android:id="@+id/txtGoldar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Jenis Goldar"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txtA"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="A"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txtB"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="B"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txtAB"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="AB"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txtO"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="O"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+        </TableRow>
+
+        <!-- first row -->
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/tableBot"
+            android:gravity="center">
+
+
+            <TextView
+                android:id="@+id/txtWBPRC"
+                android:layout_width="59dp"
+                android:layout_height="wrap_content"
+                android:text="WB/PRC"
+                android:textSize="18sp" />
+
+            <EditText
+                android:id="@+id/editTextWBA"
+                android:layout_width="15dp"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="number"
+                android:textSize="12sp" />
+
+            <EditText
+                android:id="@+id/editTextWBB"
+                android:layout_width="15dp"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="number"
+                android:textSize="12sp" />
+
+            <EditText
+                android:id="@+id/editTextWBAB"
+                android:layout_width="15dp"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="number"
+                android:textSize="12sp" />
+
+            <EditText
+                android:id="@+id/editTextWB0"
+                android:layout_width="15dp"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="number"
+                android:textSize="12sp" />
+
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/tableBot"
+            android:gravity="center">
+
+
+            <TextView
+                android:id="@+id/textViewTC"
+                android:layout_width="59dp"
+                android:layout_height="wrap_content"
+                android:text="TC"
+                android:textSize="18sp" />
+
+            <EditText
+                android:id="@+id/editTextTCA"
+
+                android:layout_width="15dp"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="number"
+                android:textSize="12sp" />
+
+            <EditText
+                android:id="@+id/editTextTCB"
+                android:layout_width="15dp"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="number"
+                android:textSize="12sp" />
+
+            <EditText
+                android:id="@+id/editTextTCAB"
+                android:layout_width="15dp"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="number"
+                android:textSize="12sp" />
+
+            <EditText
+                android:id="@+id/editTextTC0"
+                android:layout_width="15dp"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="number"
+                android:textSize="12sp" />
+
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/tableBot"
+            android:gravity="center">
+
+
+            <TextView
+                android:id="@+id/textVieWFFP"
+                android:layout_width="59dp"
+                android:layout_height="wrap_content"
+                android:text="FFP"
+                android:textSize="18sp" />
+
+            <EditText
+                android:id="@+id/editTextFFPA"
+
+                android:layout_width="15dp"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="number"
+                android:textSize="12sp" />
+
+            <EditText
+                android:id="@+id/editTextFFPB"
+                android:layout_width="15dp"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="number"
+                android:textSize="12sp" />
+
+            <EditText
+                android:id="@+id/editTextFFPAB"
+                android:layout_width="15dp"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="number"
+                android:textSize="12sp" />
+
+            <EditText
+                android:id="@+id/editTextFFPO"
+                android:layout_width="15dp"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="number"
+                android:textSize="12sp" />
+
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/tableWhite"
+            android:gravity="center">
+
+
+            <Button
+                android:id="@+id/buttoninput"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Input" />
+
+
+        </TableRow>
+
+    </TableLayout>
+
+</ScrollView>
